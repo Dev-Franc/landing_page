@@ -23,7 +23,7 @@ nav {
 }
 
 nav img {
-    width: 150px;
+    width: 30px;
     color: #f9faf8;
     font-size: 24px;
 }
@@ -61,21 +61,27 @@ nav img {
 }
 
 .text-box {
-    width: 90%;
+    width: 70%;
     color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: left;
+    display: flex;
 }
-
+.text-box img{
+    height: 46vh;
+    width: 500px;
+    font-size: 24px;
+}
 .text-box h1 {
-    font-size: 62px;
+    margin-top: 5px;
+    font-size: 50px;
 }
 
 .text-box p {
-    margin: 10px 0 40px;
+    margin: 0px 0 10px 0px;
     font-size: 14px;
     color: #fff;
 }
@@ -87,6 +93,7 @@ nav img {
     padding: 12px 34px;
     font-size: 13px;
     border-radius: 10px;
+    background-color: #3882f6;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -146,6 +153,14 @@ nav .fa{
     text-align: center;
     padding-top: 100px;
 }
+.course img{
+    height: 26vh;
+    width: 200px;
+    font-size: 24px;
+    border-radius: 12px;
+    border: solid #5391e7;
+}
+
 h1{
     font-size: 20px;
     font-weight: 600;
